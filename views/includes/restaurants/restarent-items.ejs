@@ -1,0 +1,22 @@
+<li class="restaurant-item">
+    <article>
+        <h2>
+            <%= restant.name %>
+        </h2>
+        <div class="restaurant-meta">
+            <p>
+                <%=restant.address%>
+            </p>
+            <p>
+                <%=restant.cuisine%>
+            </p>
+        </div>
+        <p>
+            <%=restant.description %>
+        </p>
+
+        <div class="restaurant-actions">
+            <a href="/restaurants/<%= restant.id  %>  ">View restanent</a>
+        </div>
+    </article>
+</li>
